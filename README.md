@@ -34,21 +34,21 @@ Example values for data.txt:
 The output will be displayed to the terminal. 
 For the above example the output would be: 
 ```
-2 5 11 19
+2 4 5 11 19
 ```
 ```
-1 1 2 2 3 4 5 6
+1 1 2 2 3 4 5 6 8
 ```
 Test your code on the school’s server, flip.  Your code should run with the HW1.sh script.
 
 ## Problem 4: Running times (5 pts)  
-Modify code- Now that you have verified that your code runs correctly using the data.txt input file, you can modify the code to collect running time data.  Instead of reading arrays from the file data.txt and sorting, you will now generate arrays of size n containing random integer values from 0 to 10,000 to sort.  Use the system clock to record the running times of each algorithm for ten different values of n for example: n = 5000, 10000, 15000, 20,000, ..., 50,000.  You may need to modify the values of n if an algorithm runs too fast or too slow to collect the running time data. All running times should be greater than 0 and less than 20 seconds. Output to the terminal the array size n and time to sort.  Name these new programs merge3Time and stoogeTime.
+Modify code- Now that you have verified that your code runs correctly using the data.txt input file, you can modify the code to collect running time data.  Instead of reading arrays from the file data.txt and sorting, you will now generate arrays of size n containing random integer values from 0 to 10,000 to sort. Use the system clock to record the running times of each algorithm for ten different values of n for example: n = 5000, 10000, 15000, 20,000, ..., 50,000. You may need to modify the values of n if an algorithm runs too fast or too slow to collect the running time data. All running times should be greater than 0 and less than 20 seconds. Output to the terminal the array size n and time to sort.  Name these new programs merge3Time and stoogeTime.
 
 Submit the code to TEACH.
 
 ## Problem 5: Data analysis (5 pts)  
-1. Collect running times - Collect the timing data from running your programs on the engineering flip server. You will need at least ten values of t (time) greater than 0.  If there is variability in the times between runs of the same algorithm you may want to take the average time of several runs for each value of n.  Create a table of running times for each algorithm.  Is this best case, worst case or average case running time? Did you take the average of multiple runs?  
-2. Plot data and fit a curve - For each algorithm plot the running time data you collected in part a) on an individual graph with n on the x-axis and time on the y-axis.  You may use Desmos, Matlab, R or any other software.  What type of curve best fits each data set?  Give the equation of the curve that best “fits” the data and draw that curve on the graphs.  How does your experimental running times compare to the theoretical running times? 
+1. **Collect running times** - Collect the timing data from running your programs on the engineering flip server. You will need at least ten values of t (time) greater than 0.  If there is variability in the times between runs of the same algorithm you may want to take the average time of several runs for each value of n.  Create a table of running times for each algorithm.  Is this best case, worst case or average case running time? Did you take the average of multiple runs?  
+2. **Plot data and fit a curve** - For each algorithm plot the running time data you collected in part a) on an individual graph with n on the x-axis and time on the y-axis.  You may use Desmos, Matlab, R or any other software.  What type of curve best fits each data set?  Give the equation of the curve that best “fits” the data and draw that curve on the graphs.  How does your experimental running times compare to the theoretical running times? 
 
 **Note:** All code should be fully commented and include your name, date and class.  If you use any 
 resources when writing the code, cite them in the comments. 

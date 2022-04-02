@@ -1,4 +1,4 @@
-# CS 325 HW 1 – 30 pts  
+# Homework 1 – 30 pts  
  
 *Submit a copy of all your code files, data.txt and the script file in a ZIP file to TEACH.  Submit the written answers to Problems 1, 2 & 5 in Canvas.*
 

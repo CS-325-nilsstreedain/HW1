@@ -1,6 +1,6 @@
 # Homework 1 – 30 pts  
  
-*Submit a copy of all your code files, data.txt and the script file in a ZIP file to TEACH.  Submit the written answers to Problems 1, 2 & 5 in Canvas.*
+*Submit a copy of all your code files, data.txt and the script file in a ZIP file to [TEACH](https://teach.engr.oregonstate.edu/teach.php?type=assignment).  Submit the written answers to Problems 1, 2 & 5 in Canvas.*
 
 ## Problem 1: Mergesort3 (5 pts)
 The Mergesort3 algorithm is a variation of Merge sort that instead of splitting the list into two halves, splits the list into three thirds. Mergesort3 recursively sorts each third and then merges the thirds together into a sorted list by calling a function named Merge3.

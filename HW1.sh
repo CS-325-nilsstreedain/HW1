@@ -5,14 +5,14 @@ then
 
 	echo "Merge Sort 3"
 	g++ mergesort3.cpp -std=c++11 -o mergesort3
-	mergesort3 > merge3.txt
-	mergesort3
+	./mergesort3 > merge3.txt
+	./mergesort3
 	echo	
 	
 	echo "Stooge Sort"
 	g++ stoogesort.cpp -std=c++11 -o stoogesort
-	stoogesort > stooge.txt
-	stoogesort
+	./stoogesort > stooge.txt
+	./stoogesort
 	echo	
 	echo "Merge Sort 3 Comparison"
 	diff -y -B -b --report-identical-files --suppress-common-lines merge3.txt sorted.txt

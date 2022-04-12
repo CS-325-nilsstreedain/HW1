@@ -2,7 +2,7 @@
 //  mergesort3.cpp
 //  CS-325
 //
-//  Created by Nils Streedain on 4/11/22.
+//  Created by Nils Streedain on 4/10/22.
 //
 
 #include <iostream>

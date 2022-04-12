@@ -34,10 +34,10 @@ Example values for data.txt:
 The output will be displayed to the terminal. 
 For the above example the output would be: 
 ```
-2 4 5 11 19
+2 5 11 19
 ```
 ```
-1 1 2 2 3 4 5 6 8
+1 1 2 2 3 4 5 6
 ```
 Test your code on the school’s server, flip.  Your code should run with the HW1.sh script.
 

@@ -50,6 +50,7 @@ int main(int argc, const char * argv[]) {
 			std::stringstream ss(currLine);
 			int currNum;
 			std::vector<int> list;
+			ss >> currNum;
 			while (ss >> currNum)
 				list.push_back(currNum);
 			

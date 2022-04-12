@@ -44,7 +44,7 @@ Test your code on the school’s server, flip.  Your code should run with the HW
 ## Problem 4: Running times (5 pts)  
 Modify code- Now that you have verified that your code runs correctly using the data.txt input file, you can modify the code to collect running time data.  Instead of reading arrays from the file data.txt and sorting, you will now generate arrays of size n containing random integer values from 0 to 10,000 to sort. Use the system clock to record the running times of each algorithm for ten different values of n for example: n = 5000, 10000, 15000, 20,000, ..., 50,000. You may need to modify the values of n if an algorithm runs too fast or too slow to collect the running time data. All running times should be greater than 0 and less than 20 seconds. Output to the terminal the array size n and time to sort.  Name these new programs merge3Time and stoogeTime.
 
-Submit the code to TEACH.
+Submit the code to [TEACH](https://teach.engr.oregonstate.edu/teach.php?type=assignment).
 
 ## Problem 5: Data analysis (5 pts)  
 1. **Collect running times** - Collect the timing data from running your programs on the engineering flip server. You will need at least ten values of t (time) greater than 0.  If there is variability in the times between runs of the same algorithm you may want to take the average time of several runs for each value of n.  Create a table of running times for each algorithm.  Is this best case, worst case or average case running time? Did you take the average of multiple runs?  

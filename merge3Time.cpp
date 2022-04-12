@@ -75,7 +75,7 @@ int main(int argc, const char * argv[]) {
 	srand((int)time(0));
 	
 	// Loop over different size lists
-	for (int i = 500000; i <= 5000000; i += 500000) {
+	for (int i = 100000; i <= 1000000; i += 100000) {
 		// Populate current list
 		std::vector<int> list;
 		list.reserve(i);
